@@ -1,0 +1,11 @@
+[project]
+name = "ffrd-grid-tiling"
+version = "0.1.0"
+description = "Tiling gridded data for FFRD SOP"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "geopandas>=1.1.2",
+    "pyarrow>=23.0.1",
+    "rasterio>=1.5.0",
+]
