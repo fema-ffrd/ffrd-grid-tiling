@@ -21,6 +21,8 @@ The tiling system uses an origin-anchored, globally-stable indexing scheme that 
 ├── generate-tiles.sh            # Example shell script with preset configurations
 ├── data/                        # Input vector boundaries
 │   └── huc4-conus-simplified.gpkg
+|       # CONUS HUC-4 Watersheds, obtained from:
+|       # https://resilience.climate.gov/datasets/esri::watershed-boundary-dataset-huc-4s
 ├── schemes/                     # Output tiling scheme files (GeoParquet)
 │   ├── hydraulics-tiles_98304ft_4ft_res.parquet
 │   └── hydrology-tiles_196608ft_96ft_res.parquet
